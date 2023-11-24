@@ -1,0 +1,46 @@
+Xpath 
+
+Absolute xpath -/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[7]/span/span[3]/input
+
+
+Relative xpath - 
+//tagname[@attribute='']
+//tagname[text()='']
+//tagname[normalize-space()='']
+
+Xpath grouping - starts at 1
+(//div[@class='checkbox-ui'])[3]
+
+Contains
+//tagname[contains(@attribute,'')]
+//tagname[contains(text(),'')]
+//tagname[contains(normalize-space(),'')]
+
+//button[normalize-space()='Login']
+//button[contains(normalize-space(),'Log')]
+
+And-or
+//tagname[@attribute='' and @att='']]
+//input[@type='file' and @id='edit-field-additional-document-0-upload']
+
+parent-child
+
+ancestor-descendant
+
+following-preceding
+
+
+
+
+
+
+Example: verify in chrome - ctrl+f
+//input[@value='-1']
+//label[text()='Custom']
+
+//a[contains(@href,'facebook.com')]
+
+//frame[@name='login_page']
+//frame[contains(@src,'RSNBLogin')]
+
+"C:\Automation Session\pdffile.pdf"
